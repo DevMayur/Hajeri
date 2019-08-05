@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateClass">
+
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_classname_create_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/class_name"/>
+
+        <EditText
+            android:id="@+id/et_teachers_name_create_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/teachers_name"/>
+
+        <EditText
+            android:id="@+id/et_division_create_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/division"/>
+
+        <EditText
+            android:id="@+id/et_starting_date_create_class"
+            android:layout_width="match_parent"
+            android:inputType="date"
+            android:layout_height="wrap_content"
+            android:hint="@string/starting_date"/>
+
+        <EditText
+            android:id="@+id/et_ending_date_create_class"
+            android:layout_width="match_parent"
+            android:inputType="date"
+            android:layout_height="wrap_content"
+            android:hint="@string/end_date"/>
+
+        <EditText
+            android:id="@+id/et_organization_create_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/organization"/>
+
+        <Button
+            android:id="@+id/bt_create_create_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/create"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
